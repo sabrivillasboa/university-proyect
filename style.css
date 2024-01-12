@@ -12,6 +12,12 @@
     --color-input: #E5E5E5;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+/* Estilos Hero */
+
 .switch-color{
     background-color: #ffff;
     display: flex;
@@ -37,7 +43,6 @@
 
 .top-header__icon i{
     font-size: 1.2rem;
-    
 }
 
 .logo-container{
@@ -61,6 +66,10 @@
     font-size: 1.3rem;
 }
 
+#about-us,#courses,#hero{
+    scroll-margin-top: 80px;
+}
+
 .hero-mp4{
     position: absolute;
     bottom: 0px;
@@ -80,20 +89,16 @@
     position: relative;
     z-index: 1;
     height: auto;
-    /* min-height: 100vh; */
     padding-top: 12rem;
-    /* background-color: darkkhaki; */
 }
 
 .col-hero{
     padding: 0 2rem;
-    /* background-color: aquamarine; */
 }
 
 .col-form{
     align-items: center;
     padding-top: 2.5rem;
-    /* background-color: #FFB749; */
 }
 
 .col-hero p{

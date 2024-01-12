@@ -14,8 +14,6 @@ window.addEventListener("scroll", ()=>{
           });
 
         navbar.classList.add("nav-switch");
-        //navbar.classList.remove("navbar-dark");
-        
     } else {
         navTop.classList.remove("switch-color");
         navTop.classList.add("top-header");
