@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-principal: #02557D;
+    --color-secondary: #FFB749;
+    --color-input: #E5E5E5;
+}
+
+.switch-color{
+    background-color: #ffff;
+    color: var(--color-principal);
+}
+
+.switch-icon{
+    color: var(--color-principal);
+    font-size: 0.8rem;
+}
+
+.top-header{
+    background-color: var(--color-principal);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.top-header__icon{
+    font-size: 0.8rem;
+    color: white;
+}
+
+.top-header__icon i{
+    font-size: 1.2rem;
+}
+
+.logo-container{
+    width: 30%;
+}
+
+.logo{
+    height: 4rem;
+}
+
+.nav-item{
+    padding: 1rem;
+
+}
+
+.nav-link{
+
+    font-size: 1.3rem;
+}
+
+.hero-mp4{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+    filter: opacity(45%) drop-shadow(0px 0px 5px #02557d);
+-webkit-filter: opacity(45%) drop-shadow(0px 0px 5px #02557d);
+-moz-filter: opacity(45%) drop-shadow(0px 0px 5px #02557d);
+}
+
+.hero-title{
+    position: relative;
+    z-index: 1;
+    height: auto;
+    /* min-height: 100vh; */
+    padding-top: 12rem;
+    /* background-color: darkkhaki; */
+}
+
+.col-hero{
+    padding: 0 2rem;
+    /* background-color: aquamarine; */
+}
+
+.col-form{
+    align-items: center;
+    padding-top: 2.5rem;
+    /* background-color: #FFB749; */
+}
+
+.col-hero p{
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+hr{
+    background-color: var(--color-secondary);
+    height: 2px;
+    width: 30%;
+}
+
+h1{
+    color: #fff;
+}
+
+.btn{
+    background-color: var(--color-secondary);
+    color: #ffff;
+    width: auto;
+    border-radius: 20px;
+    font-size: 1.1rem;
+}
+
+form{
+    min-width: 200px;
+    width: 350px;
+    height: 60vh;
+    border-radius: 12px;
+    background-color: #fff;
+}
+form p{
+    background-color:var(--color-principal);
+    width: 100%;
+    border-radius: 12px;
+}
+
+input{
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 12px;
+    background-color: var(--color-input);
+    border: none;
+    padding-left: 1rem;
+}
+
+textarea{
+    height: 5rem;
+    width: 80%;
+    border-radius: 12px;
+    background-color: var(--color-input);
+    border: none;
+    padding-left: 1rem;
+}
+
+.input_{
+    width: 40%;
+    background-color: var(--color-input);
+}
+
+.btn_{
+    width: 80%;
+}
+
+/* Estilos The most popular */
+
+.color-text{
+    color: var(--color-principal);
+}
+
+.card{
+    box-shadow: 4px 7px 13px 0px rgba(0,0,0,0.71);
+-webkit-box-shadow: 4px 7px 13px 0px rgba(0,0,0,0.71);
+-moz-box-shadow: 4px 7px 13px 0px rgba(0,0,0,0.71);
+}
+
+/* Estilos about us */
+
+.bg-about{
+    background-color: var(--color-principal);
+}
+
+/* Estilos Benefits */
+
+.bg{
+    background-image: url(/images/BACKGROUND\ BENEFITS.jpg);
+    
+}
+
+/* Estilos Study Careers */
+
+.card-img{
+    opacity: 0.6;
+}
+
+.card:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
