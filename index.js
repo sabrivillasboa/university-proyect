@@ -1,7 +1,9 @@
 const navTop= document.querySelector(".top-header");
 const icons= document.querySelectorAll(".top-header__icon");
 const navbar= document.querySelector(".nav-switch");
-const btn= document.querySelector(".navbar-toggler")
+const btn= document.querySelector(".navbar-toggler");
+//const navbarDark= document.querySelector(".navbar-dark");
+
 
 window.addEventListener("scroll", ()=>{
     if (window.scrollY > 0){
