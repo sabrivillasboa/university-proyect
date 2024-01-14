@@ -247,3 +247,59 @@ textarea{
 .img-area img{
     width: 100%;
 }
+
+/* Estilos Reviews */
+
+.bg-reviews-img{
+    position: absolute;
+    width: 60%;
+    height: 65vh;
+    z-index: -1000;
+    filter: opacity(55%) drop-shadow(0px 0px 0px #02557d);
+-webkit-filter: opacity(55%) drop-shadow(0px 0px 0px #02557d);
+-moz-filter: opacity(55%) drop-shadow(0px 0px 0px #02557d);
+    object-fit: cover;
+    
+}
+
+.text-reviews{
+    position: relative;
+    z-index: 1;
+    height: 65vh;
+    width: 65%;
+    justify-content: space-around;
+    /* background-color: aliceblue; */
+}
+
+.text-title{    
+    width: 60%;
+    height: auto;
+    /* background-color: antiquewhite; */
+}
+
+.rev-title{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.carousel-item video{
+    width: 100%;
+    border: none;
+    justify-content: center;
+    
+}
+
+.btnCarousel{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.carousel-control-prev, .carousel-control-next{
+    border: none;
+    height: 4rem;
+}
+
+/* .carousel slide{
+    width: 50%;
+} */
