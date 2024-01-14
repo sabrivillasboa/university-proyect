@@ -2,7 +2,6 @@ const navTop= document.querySelector(".top-header");
 const icons= document.querySelectorAll(".top-header__icon");
 const navbar= document.querySelector(".nav-switch");
 const btn= document.querySelector(".navbar-toggler");
-//const navbarDark= document.querySelector(".navbar-dark");
 
 
 window.addEventListener("scroll", ()=>{
@@ -16,6 +15,7 @@ window.addEventListener("scroll", ()=>{
           });
 
         navbar.classList.add("nav-switch");
+        navbar.classList.remove("navbar-dark");
     } else {
         navTop.classList.remove("switch-color");
         navTop.classList.add("top-header");
@@ -28,6 +28,11 @@ window.addEventListener("scroll", ()=>{
         navbar.classList.add("navbar-dark");
         navbar.classList.remove("nav-switch");
     }
+})
+
+window.addEventListener("load", ()=>{
+    navbar.classList.add("navbar-dark");
+    navbar.classList.remove("nav-switch");
 })
 
 btn.addEventListener("click", ()=>{

@@ -7,17 +7,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/1ca19d9606.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <title>University</title>
 </head>
 <body>
+  <section id="header">
   <div class="container-fluid fixed-top">
     <div class="row top-header">
       <a class="navbar-brand top-header__icon" href="https://web.whatsapp.com/" target="_blank"><i class="fas fa-phone"></i>123 456 789</a>
       <a class="navbar-brand top-header__icon" href="https://mail.google.com/" target="_blank"><i class="fas fa-envelope"></i>info@email.com</a>
       <a class="navbar-brand top-header__icon" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
       <a class="navbar-brand top-header__icon" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a class="navbar-brand top-header__icon" href="https://es-la.facebook.com/login/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a class="navbar-brand top-header__icon" href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
     </div>
     <nav class="row navbar navbar-expand-lg navbar-dark nav-switch">
       <a class="navbar-brand logo-container d-flex justify-content-center" href="#hero">
@@ -35,31 +39,34 @@
             <a class="nav-link" href="#courses" style="color:#fff;">Courses</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color:#fff;">Team</a>
+            <a class="nav-link" href="#team" style="color:#fff;">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color:#fff;">Contact us</a>
+            <a class="nav-link" href="https://mail.google.com/" target="_blank" style="color:#fff;">Contact us</a>
           </li>
         </ul>
       </div>
     </nav>
   </div>
+  </section>
   <section id="hero">
   <div class="container-fluid">
     <div class="row">
         <video class="hero-mp4" src="/video/hero-video.mp4" autoplay loop></video>
     </div>
-    <div class="row hero-title d-flex justify-content-center align-items-center ">
-      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-hero pl-5">
-        <p>Welcome the University</p>
-        <hr>
-        <h1>We are an online platform to make learning</h1>
-        <button type="button" class="btn font-weight-bold border border-white">Get Now</button>
+    <div class="row hero-title d-flex justify-content-center align-items-center">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-hero d-flex flex-column justify-content-center">
+        <div class="principal-title pl-5">
+          <p>Welcome the University</p>
+          <hr class="hr-body">
+          <h1 class="pb-3">We are an online platform to make learning</h1>
+          <button type="button" class="btn font-weight-bold border border-white d-flex w-25 justify-content-center">Get Now</button>
+        </div>
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-form">
-        <div class="container">
-          <form class="d-flex  flex-wrap justify-content-center" >
-            <p class="text-center font-weight-bold text-white">Register now !</p>
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-form d-flex flex-column justify-content-end pb-5">
+        <div class="container d-flex justify-content-center">
+          <form class="d-flex flex-wrap justify-content-center border bg-light" >
+            <p class="font-weight-bold text-white d-flex align-items-center justify-content-center">Register now !</p>
             <input type="text" placeholder="Name">
             <input class="input_" type="email" placeholder="Email">
             <input class="input_" type="number" placeholder="Phone">
@@ -72,11 +79,12 @@
     </div>
   </div>
   </section>
+  <section id="theMostPopular">
   <div class="container-fluid">
     <div class="row pt-5 justify-content-center mb-5" >
       <div class="color-text w-75 p-3">
         <h3>The most popular</h3>
-        <hr>
+        <hr class="hr-body">
         <h2 class="font-weight-bold">know what we offer you</h2>
       </div>
     </div>
@@ -124,12 +132,13 @@
       </div>
     </div>
   </div>
+  </section>
   <section id="about-us">
   <div class="container-fluid">
     <div class="row text-white pt-5 bg-about">
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center flex-column pl-5">
         <h3>About us</h3>
-        <hr>
+        <hr class="hr-body">
         <h2 class="font-weight-bold">know everything we do for you</h2>
         <p>The university is a phisycal place, buildings, laboratories, libraries...where students and teachers meet. The iniversity is also a human-social system, that is, a set of elements that are related and interact whit each other.</p>
       </div>
@@ -146,6 +155,7 @@
     </div>
   </div>
   </section>
+  <section id="benefits">
   <div class="container-fluid bg pt-5 d-flex justify-content-center">
     <div class="row w-50 align-items-center">
       <div class="col-sm-6 col-md-6 col-lg-3 d-flex flex-column align-items-center pt-4">
@@ -166,12 +176,13 @@
       </div>
     </div>
   </div>
+  </section>
   <section id="courses">
   <div class="container p-5" style="height: auto;">
     <div class="row pt-5 mb-5" >
       <div class="color-text p-3">
         <h3>Study careers</h3>
-        <hr>
+        <hr class="hr-body">
         <h2 class="font-weight-bold">Explore the different careers we offer</h2>
       </div>
     </div>
@@ -246,12 +257,12 @@
     </div>
   </div>
   </section>
-  <section>
+  <section id="team">
     <div class="container-fluid bg-team" style="height: auto;">
-      <div class="row mb-5" >
-        <div class="color-text ml-4 mr-4 mt-5">
+      <div class="row pt-5 mb-5" >
+        <div class="color-text ml-4 mt-5 p-5">
           <h3>Our Team</h3>
-          <hr>
+          <hr class="hr-body">
           <h2 class="font-weight-bold">Meet the best professionals</h2>
         </div>
       </div>
@@ -361,9 +372,9 @@
       </div>
     </div>
   </section>
-  <section class="reviews">
+  <section id="reviews">
     <div class="container-fluid d-flex justify-content-center pt-5 pb-5">
-      <div class="row bg-reviews">
+      <div class="row">
         <img class="bg-reviews-img" src="/images/IMAGE CURSO 2.jpg" alt="image testimonial">
       </div>
       <div class="row text-reviews d-flex align-items-center">
@@ -375,7 +386,7 @@
         </div>
         <div class="col-sm-12 col-md-6 d-flex align-items-center">
           <!-- Carousel testimonials -->
-          <div id="myCarousel" class="carousel slide mr-4" data-ride="carousel">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <video src="/video/review-1.mp4" controls></video>
@@ -393,6 +404,53 @@
               <span class="sr-only">Next</span>
             </button>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="container-fluid footer pt-4">
+      <div class="row pr-5 pl-5">
+        <div class="col-sm-12 col-md-12 col-lg-3 d-flex align-items-center">
+          <a href="#hero" class="a-logo-footer d-flex justify-content-center"><img src="/images/LOGO.png" alt="logo"></a>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-3 d-flex flex-column align-items-center">
+          <h4 class="footer-titles">Quik Links</h4>
+          <ul class="link-footer">
+            <li><a href="#about-us" class="text-light text-decoration-none">About us</a></li>
+            <li><a href="#courses" class="text-light text-decoration-none">Courses</a></li>
+            <li><a href="#team" class="text-light text-decoration-none">Team</a></li>
+            <li><a href="https://mail.google.com/" target="_blank" class="text-light text-decoration-none">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-3 d-flex flex-column align-items-center">
+          <h4 class="footer-titles">Contact Info</h4>
+          <ul class="link-footer">
+            <li><a href="https://web.whatsapp.com/" target="_blank" class="text-light text-decoration-none"><i class="fas fa-phone mr-2"></i>123 456 789</a></li>
+            <li><a href="https://mail.google.com/" target="_blank" class="text-light text-decoration-none"><i class="fas fa-envelope mr-2"></i>info@email.com</a></li>
+            <li><a href="https://www.google.com/maps/" target="_blank" class="text-light text-decoration-none"><i class="fas fa-map-marker-alt mr-2"></i>adress, United State</a></li>
+            <li class="d-flex justify-content-center">
+              <a href="https://es-la.facebook.com/" target="_blank" class="text-light text-decoration-none"><i class="fab fa-facebook-f mr-3"></i></a>
+              <a href="https://www.instagram.com/" target="_blank" class="text-light text-decoration-none"><i class="fab fa-instagram mr-3"></i></a>
+              <a href="https://www.youtube.com/" target="_blank" class="text-light text-decoration-none"><i class="fab fa-youtube mr-3"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-3 d-flex flex-column align-items-center">
+          <h4 class="footer-titles">Newsletter</h4>
+            <p class="text-white">Receive all our promotions and notifications</p>
+            <button type="button" class="btn">Submit</button>
+          </ul>
+        </div>
+      </div>
+      <hr class="footer-hr">
+      <div class="row d-flex w-75 pb-4">
+        <div class="col-sm-6">
+          <p class="text-white">© Copyrigth University. All Rigths Reserved</p>
+          <p class="text-white">This Website Was Designed and Developed by Josesilvera.com</p>
+        </div>
+        <div class="col-sm-6">
+          <a href="https://striveenterprise.com/" target="_blank" class="logo-silvera d-flex justify-content-end"><img src="/images/logo Silvera Enterprises.png" alt="logo"></a>
         </div>
       </div>
     </div>

@@ -16,6 +16,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
 /* Estilos Hero */
 
 .switch-color{
@@ -43,6 +47,14 @@ html{
 
 .top-header__icon i{
     font-size: 1.2rem;
+    padding-right: 0.8rem;
+}
+
+.top-header__icon:hover{
+    cursor: pointer;
+    color: #fff;
+    transform: scale(1.3);
+    transition: 0.5s;
 }
 
 .logo-container{
@@ -64,6 +76,12 @@ html{
 
 .nav-link{
     font-size: 1.3rem;
+}
+
+.nav-link:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
 }
 
 #about-us,#courses,#hero{
@@ -89,16 +107,16 @@ html{
     position: relative;
     z-index: 1;
     height: auto;
-    padding-top: 12rem;
+    padding-top: 120px;
 }
 
 .col-hero{
-    padding: 0 2rem;
+    min-height: calc(100vh - 95px);
+    
 }
 
 .col-form{
-    align-items: center;
-    padding-top: 2.5rem;
+    min-height: calc(100vh - 95px);
 }
 
 .col-hero p{
@@ -106,7 +124,7 @@ html{
     font-size: 1.8rem;
 }
 
-hr{
+.hr-body{
     background-color: var(--color-secondary);
     height: 2px;
     width: 30%;
@@ -114,12 +132,12 @@ hr{
 
 h1{
     color: #fff;
+    
 }
 
 .btn{
     background-color: var(--color-secondary);
     color: #ffff;
-    width: auto;
     border-radius: 20px;
     font-size: 1.1rem;
 }
@@ -161,7 +179,7 @@ textarea{
 }
 
 .btn_{
-    width: 80%;
+    width: 50%;
 }
 
 /* Estilos The most popular */
@@ -186,7 +204,7 @@ textarea{
 
 .bg{
     background-image: url(/images/BACKGROUND\ BENEFITS.jpg);
-    
+
 }
 
 /* Estilos Study Careers */
@@ -233,7 +251,6 @@ textarea{
 }
 
 .img-area{
-    /* display: flex; */
     position: absolute;
     width: 100px;
     height: 100 px;
@@ -241,7 +258,7 @@ textarea{
     overflow: hidden;
     border-radius: 50%;
     margin-top: 0.5rem;
-    
+
 }
 
 .img-area img{
@@ -252,29 +269,27 @@ textarea{
 
 .bg-reviews-img{
     position: absolute;
-    width: 60%;
-    height: 65vh;
-    z-index: -1000;
+    width: 80%;
+    height: 75vh;
+    z-index: -100;
     filter: opacity(55%) drop-shadow(0px 0px 0px #02557d);
 -webkit-filter: opacity(55%) drop-shadow(0px 0px 0px #02557d);
 -moz-filter: opacity(55%) drop-shadow(0px 0px 0px #02557d);
     object-fit: cover;
-    
+
 }
 
 .text-reviews{
     position: relative;
     z-index: 1;
-    height: 65vh;
-    width: 65%;
+    height: 75vh;
+    width: 80%;
     justify-content: space-around;
-    /* background-color: aliceblue; */
 }
 
-.text-title{    
+.text-title{
     width: 60%;
     height: auto;
-    /* background-color: antiquewhite; */
 }
 
 .rev-title{
@@ -286,13 +301,13 @@ textarea{
     width: 100%;
     border: none;
     justify-content: center;
-    
+
 }
 
 .btnCarousel{
     position: absolute;
     top: 50%;
-    transform: translateY(-50%); 
+    transform: translateY(-50%);
 }
 
 .carousel-control-prev, .carousel-control-next{
@@ -300,6 +315,34 @@ textarea{
     height: 4rem;
 }
 
-/* .carousel slide{
-    width: 50%;
-} */
+/* Estilos Footer */
+
+.footer{
+    background-color: var(--color-principal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a-logo-footer img{
+    width: 35%;
+    padding: 2rem 0;
+}
+
+.footer-titles{
+    color: var(--color-secondary);
+}
+
+.footer-hr{
+    background-color: #fff;
+    width: 75%;
+}
+
+.a-logo-footer img{
+    width: 35%;
+    padding: 2rem 0;
+}
+
+.logo-silvera img{
+    width: 30%;
+}
