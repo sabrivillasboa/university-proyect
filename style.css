@@ -204,7 +204,15 @@ textarea{
 
 .bg{
     background-image: url(/images/BACKGROUND\ BENEFITS.jpg);
+    height: 60vh;
+}
 
+.row-benefits{
+    height: 100%;
+}
+
+.p-benefits{
+    font-size: 1.3rem;
 }
 
 /* Estilos Study Careers */
