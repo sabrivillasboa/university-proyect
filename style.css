@@ -283,16 +283,24 @@ textarea{
 /* Estilos Reviews */
 
 
-.bg-reviews-img{
+.testimonial-div{
     position: absolute;
-    width: 80%;
+    width: 70%;
+    align-self: center;
+}
+
+.bg-reviews-img{
+    width: 100%;
     height: 75vh;
     z-index: -100;
     filter: opacity(55%) drop-shadow(0px 0px 0px #02557d);
 -webkit-filter: opacity(55%) drop-shadow(0px 0px 0px #02557d);
 -moz-filter: opacity(55%) drop-shadow(0px 0px 0px #02557d);
     object-fit: cover;
+}
 
+.carousel-testimonial{
+    position: relative;
 }
 
 .text-reviews{
@@ -300,8 +308,8 @@ textarea{
     z-index: 1;
     height: 75vh;
     width: 80%;
-    /* margin: 0; */
 }
+
 
 .text-title{
     width: 60%;
